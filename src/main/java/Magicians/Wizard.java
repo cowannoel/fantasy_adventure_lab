@@ -2,6 +2,8 @@ package Magicians;
 
 import Inventory.Creatures.Creature;
 import Inventory.Spells.Spell;
+import Inventory.Weapons.Weapon;
+import Rooms.Monster.Monster;
 
 public class Wizard extends Magic {
 
@@ -10,11 +12,18 @@ public class Wizard extends Magic {
         super(spell, creature, defence);
     }
 
-    public void teleportAttack(){
+    public void attack(Monster monster, Spell spell) {
+            int defaultAttack = 10;
+            int attack = defaultAttack + spell.damage();
+            monster.reduceHealthPoints(attack);
+        }
 
-    }
 
-    public void invisibility(){
-
-    }
+//    public void teleportAttack(){
+//
+//    }
+//
+//    public void invisibility(){
+//
+//    }
 }

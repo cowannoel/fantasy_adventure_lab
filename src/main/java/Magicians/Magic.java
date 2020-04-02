@@ -1,13 +1,14 @@
 package Magicians;
 import Inventory.Creatures.Creature;
 import Inventory.Spells.Spell;
+import Rooms.Monster.Monster;
 
 public abstract class Magic {
 
     private Spell spell;
     private Creature creature;
     private int defence;
-    
+
     public Magic(Spell spell, Creature creature, int defence){
         this.spell = spell;
         this.creature = creature;
@@ -38,4 +39,6 @@ public abstract class Magic {
     public void setDefence(int defence) {
         this.defence = defence;
     }
+
+    public abstract void attack(Monster monster, Spell spell);
 }

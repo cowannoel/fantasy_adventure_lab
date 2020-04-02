@@ -1,6 +1,6 @@
 package Inventory.Weapons;
 
-public class Weapon {
+public abstract class Weapon {
 
     private String name;
     private int damage;
@@ -25,4 +25,5 @@ public class Weapon {
     public void setDamage(int damage) {
         this.damage = damage;
     }
+
 }

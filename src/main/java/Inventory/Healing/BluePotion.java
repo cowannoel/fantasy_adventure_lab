@@ -1,4 +1,9 @@
 package Inventory.Healing;
 
-public class BluePotion {
+public class BluePotion extends HealingTools {
+
+
+    public BluePotion(String name, int points) {
+        super(name, points);
+    }
 }

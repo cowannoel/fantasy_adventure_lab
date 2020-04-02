@@ -1,4 +1,7 @@
 package Inventory.Weapons;
 
-public class Axe {
+public class Axe extends Weapon {
+    public Axe(String name, int damage) {
+        super(name, damage);
+    }
 }
