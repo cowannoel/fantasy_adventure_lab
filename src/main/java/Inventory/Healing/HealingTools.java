@@ -1,4 +1,4 @@
 package Inventory.Healing;
 
-public class HealingTools {
+public abstract class HealingTools {
 }

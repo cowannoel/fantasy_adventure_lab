@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0973f5db-a629-4762-9fa6-82988dbf2c9d" name="Default Changelist" comment="" />
+    <list default="true" id="0973f5db-a629-4762-9fa6-82988dbf2c9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IDefence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Inventory/Creatures/Creature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/KnightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Clerics/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Clerics/Cleric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fighters/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fighters/Barbarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fighters/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fighters/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fighters/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fighters/Fighter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fighters/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fighters/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Healing/HealingTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inventory/Healing/HealingTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Weapons/Axe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Weapons/Club.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Weapons/Sword.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Weapons/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inventory/Weapons/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Magicians/Magic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Magicians/Magic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Magicians/Warlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Magicians/Warlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Magicians/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Magicians/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Rooms/Monster/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rooms/Monster/Monster.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +35,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +47,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZyyzKSKfF74ZORrcFPpNrPStTC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,6 +55,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
@@ -57,5 +83,11 @@
       <updated>1585825889063</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1585832462990">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/1440.0.1048.770/0.0.1440.900@0.0.1440.900" timestamp="1585832462990" />
   </component>
 </project>
