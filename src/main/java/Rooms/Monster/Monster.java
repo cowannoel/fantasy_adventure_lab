@@ -12,9 +12,13 @@ public abstract class Monster {
         this.healthPoints = healthPoints;
 
     }
+    public void reduceDefencePoints(int attack) { this.defence -= attack; };
+
     public void reduceHealthPoints(int attack){
+        if(this.defence <= 0 ){
         this.healthPoints -= attack;
-    };
+        }
+    }
 
     public String getName() {
         return name;
@@ -39,4 +43,6 @@ public abstract class Monster {
     public void setHealthPoints(int healthPoints) {
         this.healthPoints = healthPoints;
     }
+
+
 }

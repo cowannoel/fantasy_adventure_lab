@@ -1,30 +1,16 @@
 package Fighters;
 
 import Inventory.Weapons.Weapon;
+import Player.Player;
 import Rooms.Monster.Monster;
 
-public abstract class Fighter {
+public abstract class Fighter extends Player {
 
-    private String name;
-    private Weapon weapon;
     private int defence;
 
-    public Fighter(String name, Weapon weapon, int defence) {
-        this.name = name;
-        this.weapon = weapon;
+    public Fighter(String name, int healthPoints, int wallet, int defence) {
+        super(name, healthPoints, wallet);
         this.defence = defence;
-    }
-
-    public Weapon getWeapon() {
-        return weapon;
-    }
-
-    public void changeWeapon(Weapon weapon) {
-        this.weapon = weapon;
-    }
-
-    public String getName() {
-        return name;
     }
 
     public int getDefence() {

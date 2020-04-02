@@ -1,12 +1,11 @@
-import Inventory.Spells.Spell;
+package Player;
+
 import Inventory.Weapons.Weapon;
 
-public class Player {
+public abstract class Player {
 
     private String name;
     private int healthPoints;
-    private Weapon weapon;
-    private Spell spell;
     private int wallet;
 
     public Player(String name, int healthPoints, int wallet){
@@ -37,5 +36,13 @@ public class Player {
 
     public void setWallet(int wallet) {
         this.wallet = wallet;
+    }
+
+    public void changeWeapon(Weapon weapon){
+
+    }
+
+    public void addTreasureToWallet(int value) {
+        this.wallet += value;
     }
 }

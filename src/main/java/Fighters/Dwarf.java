@@ -7,14 +7,15 @@ public class Dwarf extends Fighter {
 
     private int invisibilityCape;
 
-    public Dwarf(String name, Weapon weapon, int defence, int invisibilityCape) {
-        super(name, weapon, defence);
+    public Dwarf(String name, int healthPoints, int wallet, int defence, int invisibilityCape) {
+        super(name, healthPoints, wallet, defence);
         this.invisibilityCape = invisibilityCape;
     }
 
+
     public void attack(Monster monster, Weapon weapon) {
         int defaultAttack = 6;
-        int attack = defaultAttack + weapon.damage();
+        int attack = defaultAttack + weapon.getDamage();
         monster.reduceHealthPoints(attack);
     }
 

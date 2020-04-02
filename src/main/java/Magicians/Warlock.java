@@ -2,7 +2,6 @@ package Magicians;
 
 import Inventory.Creatures.Creature;
 import Inventory.Spells.Spell;
-import Inventory.Weapons.Weapon;
 import Rooms.Monster.Monster;
 
 public class Warlock extends Magic {
@@ -14,7 +13,7 @@ public class Warlock extends Magic {
 
     public void attack(Monster monster, Spell spell) {
         int defaultAttack = 10;
-        int attack = defaultAttack + spell.damage();
+        int attack = defaultAttack + spell.getDamage();
         monster.reduceHealthPoints(attack);
     }
 

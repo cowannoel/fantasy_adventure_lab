@@ -1,17 +1,19 @@
 package Clerics;
 
 import Inventory.Healing.HealingTools;
+import Player.Player;
 
-public class Cleric {
+public class Cleric extends Player {
 
     private String name;
     private HealingTools healingTools;
     private int defence;
 
-    public Cleric(String name, HealingTools healingTools, int defence){
-        this.name = name;
-        this. healingTools = healingTools;
+    public Cleric(String name, int healthPoints, int wallet, HealingTools healingTools, int defence) {
+        super(name, healthPoints, wallet);
+        this.healingTools = healingTools;
         this.defence = defence;
+
     }
 
 

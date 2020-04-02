@@ -2,48 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0973f5db-a629-4762-9fa6-82988dbf2c9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/RoomTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Abracadabra.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Alohomora.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Axe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/BluePotion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Club.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Creature.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Creatures/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inventory/Creatures/Creature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Creatures/Dragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inventory/Creatures/Dragon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Creatures/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inventory/Creatures/Troll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Clerics/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Clerics/Cleric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fighters/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fighters/Barbarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fighters/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fighters/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fighters/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fighters/Fighter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fighters/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fighters/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDefence.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Creatures/Unicorn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inventory/Creatures/Unicorn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Dragon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/GreenPotion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Healing/BluePotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inventory/Healing/BluePotion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Healing/GreenPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inventory/Healing/GreenPotion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Healing/HealingTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inventory/Healing/HealingTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Healing/RedPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inventory/Healing/RedPotion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/HealingTools.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/PhoenixSpell.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/RedPotion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Spell.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Spells/Abracadabra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inventory/Spells/Abracadabra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Spells/Alohomora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inventory/Spells/Alohomora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Spells/PhoenixSpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inventory/Spells/PhoenixSpell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Spells/Spell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inventory/Spells/Spell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Sword.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Troll.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Unicorn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Weapon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Weapons/Axe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inventory/Weapons/Axe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Weapons/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inventory/Weapons/Sword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inventory/Weapons/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inventory/Weapons/Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Magicians/Magic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Magicians/Magic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Magicians/Warlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Magicians/Warlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Magicians/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Magicians/Wizard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Rooms/Monster/Godzilla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rooms/Monster/Godzilla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Rooms/Monster.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Rooms/Monster/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rooms/Monster/Monster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Rooms/Monster/Orc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rooms/Monster/Orc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Rooms/Monster/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rooms/Monster/Troll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Rooms/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rooms/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Rooms/Treasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rooms/Treasure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlayerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +54,65 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
+  <component name="RunManager" selected="JUnit.RoomTest.canGetTreasureWhenMonsterDead">
+    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAdventureLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlayerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.canGetWallet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAdventureLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlayerTest" />
+      <option name="METHOD_NAME" value="canGetWallet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAdventureLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoomTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoomTest.canDefeatMonster" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAdventureLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoomTest" />
+      <option name="METHOD_NAME" value="canDefeatMonster" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoomTest.canGetTreasureWhenMonsterDead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAdventureLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoomTest" />
+      <option name="METHOD_NAME" value="canGetTreasureWhenMonsterDead" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RoomTest.canGetTreasureWhenMonsterDead" />
+        <item itemvalue="JUnit.RoomTest.canDefeatMonster" />
+        <item itemvalue="JUnit.RoomTest" />
+        <item itemvalue="JUnit.PlayerTest" />
+        <item itemvalue="JUnit.PlayerTest.canGetWallet" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -111,5 +143,21 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/1440.0.1048.770/0.0.1440.900@0.0.1440.900" timestamp="1585832462990" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1585839747212">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.0.1048.770/0.0.1440.900@0.0.1440.900" timestamp="1585839747212" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1585839747210">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/1440.0.1048.770/0.0.1440.900@0.0.1440.900" timestamp="1585839747210" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1585839747210">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/1440.0.1048.770/0.0.1440.900@0.0.1440.900" timestamp="1585839747210" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1585839747211">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/1440.0.1048.770/0.0.1440.900@0.0.1440.900" timestamp="1585839747211" />
   </component>
 </project>
